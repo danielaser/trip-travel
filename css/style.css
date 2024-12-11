@@ -22,3 +22,28 @@ h6 {
     text-align: center;
     margin-bottom: 0;
 }
+
+/* Main style */
+
+main {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../media/background_image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    align-content: center;
+}
+
+main .main-title-container {
+    text-align: center;
+    position: relative;
+    z-index: 99;
+    color: #fff;
+}
+
+main .main-title {
+    font-size: 80px;
+}
+
+main .main-text {
+    font-size: 30px;
+}
