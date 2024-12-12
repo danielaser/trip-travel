@@ -1,16 +1,15 @@
 /* General styles */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
-
 body {
-    font-family: 'Lato', sans-serif;
-    font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
 }
 
 h1,
@@ -19,117 +18,162 @@ h3,
 h4,
 h5,
 h6 {
-    text-align: center;
-    margin-bottom: 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/* Header style */
+
+header {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+header .header-bar {
+  width: 100%;
+  height: 60px;
+  background-color: #00bdbb;
+}
+
+header .header-navbar {
+  position: absolute;
+  top: 40px;
+  min-width: 96%;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+header .header-navbar button {
+  background-color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+header .header-title {
+  display: flex;
+  gap: 5px;
+}
+
+header .header-title-word {
+  color: #00bdbb;
 }
 
 /* Main style */
 
 main {
-    background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../media/background_image.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 80vh;
-    align-content: center;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+    url(../media/background_image.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  align-content: center;
 }
 
 main .main-title-container {
-    text-align: center;
-    position: relative;
-    z-index: 99;
-    color: #fff;
+  text-align: center;
+  position: relative;
+  z-index: 99;
+  color: #fff;
 }
 
 main .main-title {
-    font-size: 80px;
+  font-size: 80px;
 }
 
 main .main-text {
-    font-size: 30px;
+  font-size: 30px;
 }
-
 
 /* Footer styles */
 
 footer {
-    background-color: #00bdbb;
-    color: #fff;
-    padding: 20px;
-    font-size: 1rem;
+  background-color: #00bdbb;
+  color: #fff;
+  padding: 20px;
+  font-size: 1rem;
 }
 
 .footer-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    gap: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 footer section {
-    flex: 1; 
-    max-width: 30%; 
-    text-align: center;
+  flex: 1;
+  max-width: 30%;
+  text-align: center;
 }
 
 footer ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
-footer ul li{
-    margin: 0.75rem 0;
+footer ul li {
+  margin: 0.75rem 0;
 }
 
-footer p{
-    margin: 0.75rem 0;
+footer p {
+  margin: 0.75rem 0;
 }
 
 footer a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-footer .footer-social-media a{
-    padding: 1rem;
-    font-size: 2rem;
+footer .footer-social-media a {
+  padding: 1rem;
+  font-size: 2rem;
 }
 
-footer .footer-social-media a:hover{
-    color: #037977;
+footer .footer-social-media a:hover {
+  color: #037977;
 }
-  
+
 footer .footer-copyright {
-    flex: 1 1 100%;
-    text-align: center;
-    margin-top: 20px;
-    border-top: 1px solid #d9d9d9;
-    padding-top: 10px;
-    margin: auto;
+  flex: 1 1 100%;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 10px;
+  margin: auto;
 }
 
 @media (max-width: 768px) {
-    main .main-title {
-        font-size: 50px;
-    }
-    
-    main .main-text {
-        font-size: 20px;
-    }
+  main .main-title {
+    font-size: 50px;
+  }
 
-    .footer-content {
-        flex-direction: column; 
-        align-items: center;
-        text-align: center;
-    }
-  
-    footer section {
-        max-width: 100%;
-        margin: 0.75rem 0;
+  main .main-text {
+    font-size: 20px;
+  }
 
-    }
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer section {
+    max-width: 100%;
+    margin: 0.75rem 0;
+  }
 }
