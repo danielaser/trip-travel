@@ -68,6 +68,15 @@ header .header-title-word {
   color: #00bdbb;
 }
 
+header .header-nav {
+  display: flex;
+  align-items: center;
+}
+
+header .header-nav-hamburger {
+  display: none;
+}
+
 /* Main style */
 
 main {
@@ -158,6 +167,14 @@ footer .footer-copyright {
 }
 
 @media (max-width: 768px) {
+  header .header-nav {
+    display: none;
+  }
+
+  header .header-nav-hamburger {
+    display: block;
+  }
+
   main .main-title {
     font-size: 50px;
   }
