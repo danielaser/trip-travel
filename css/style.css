@@ -216,6 +216,77 @@ main .main-search-button:focus {
   outline: none;
 }
 
+/* cards style */
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px;
+}
+
+.card{
+  margin: 5px auto;
+  box-shadow: 0px 2px 4px 0 rgba(0,0,0,0.2);
+  border-radius: 6px;
+  transition: 0.3s;
+  max-width: 350px;
+  min-height: 300px;
+}
+
+.card:hover {
+box-shadow: 1px 10px 16px 0 rgba(0,0,0,0.3);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title{
+  text-align: left;
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-text{
+  font-weight: 500;
+  color: #66686b;
+  text-align: justify;
+}
+
+.card-image{
+  text-align: center;
+  width: 350px;
+  height: 300px;
+}
+
+img {
+  object-fit: cover;
+  width:100%;
+  height:100%;
+  border-radius: 6px 6px 0 0;
+}
+
+.card-btn{
+  all: unset;
+  display: block;
+  margin: 0px auto 20px;
+  border: 2px solid #000000;
+  padding: 15px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.5s;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+}
+
+.card-btn:hover{
+ background: #bcf5f5;
+}
+
 /* Footer styles */
 
 footer {
@@ -302,6 +373,10 @@ footer .footer-copyright {
 
   main .main-purchase-menu-container a {
     font-size: 1rem;
+  }
+
+  .card {
+    margin-bottom: 30px;
   }
 
   .footer-content {
