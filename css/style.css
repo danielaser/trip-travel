@@ -79,7 +79,7 @@ header .header-nav-hamburger {
 
 /* Main style */
 
-main {
+main .main-background-container {
   background-image: radial-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
     url(../media/background_image.jpg);
   background-position: center;
