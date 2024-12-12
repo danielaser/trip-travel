@@ -7,6 +7,7 @@ This is a travel and booking landing page where the user can discover the world 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Git](#git)
+  - [Git Main](#git-main)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -47,6 +48,20 @@ Git Purchase menu
 Git Footer
 
 ![](./media/git_footer.png)
+
+### Git Main
+
+Git Main Daniela
+
+![](./media/git_daniela.png)
+
+Git Main Hernan
+
+![](./media/git_hernan.png)
+
+Git Main Karen
+
+![](./media/git_karen.png)
 
 ### Links
 
