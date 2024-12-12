@@ -50,7 +50,7 @@ Git Footer
 
 ### Links
 
-- Live Site URL: [Trip Travel](https://)
+- Live Site URL: [Trip Travel](https://danielaser.github.io/trip-travel)
 
 ## Process
 
