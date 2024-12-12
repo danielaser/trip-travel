@@ -47,3 +47,15 @@ main .main-title {
 main .main-text {
     font-size: 30px;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+    main .main-title {
+        font-size: 50px;
+    }
+    
+    main .main-text {
+        font-size: 20px;
+    }
+}
